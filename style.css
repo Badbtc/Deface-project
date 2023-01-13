@@ -1,0 +1,131 @@
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+canvas {
+    display: block;
+    
+}
+
+#color {
+    max-width: 100%;
+    color: #BBB;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.2em;
+    position: static;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+h1{
+    
+    position:absolute;
+    bottom: 840px;
+    left: 70%;
+    
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.288);
+    width: 30%;
+    
+    
+    
+}
+h2{
+    text-align: right;
+    /* padding-left: 72%; */
+    position: absolute;
+    bottom: 790px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 95%;
+    
+    
+    
+
+}
+a{
+    text-decoration:none;
+    color: rgba(255, 0, 0, 0.527);
+}
+h3{
+    text-align: right;
+    position: absolute;
+    bottom: 740px;
+    
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 5%;
+    
+}
+
+
+pre {
+
+    text-align: center;
+    /* padding-left: 72%; */
+    position: absolute;
+    bottom: 0px;
+    font-size: 11px;
+    color: rgba(134, 134, 134, 0.377);
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width: 1400px){
+    
+    h1{
+        text-align: center;
+        position:absolute;
+        top: 20%;
+        left: auto;
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 0, 0, 0.288);
+        height: 60px;
+        width: 100%;
+        
+        
+    }
+    h2{
+        text-align: center;
+        position:absolute;
+        top: 30%;
+        font-size: 200%;
+        color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+    
+    }
+    a{
+        text-decoration:none;
+        color: rgb(99, 115, 255);
+    }
+    h3{
+        
+        
+        text-align: center;
+        position: absolute;
+        top: 35%;
+        font-size: 200%;
+        color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        
+        
+    }
+
+    pre {
+
+        
+    }
+
+}
